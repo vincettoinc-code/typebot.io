@@ -58,6 +58,10 @@ const nextConfig = {
   ],
   reactStrictMode: true,
   output: "standalone",
+  experimental: {
+    cpus: 1,
+    workerThreads: false,
+  },
   i18n: {
     defaultLocale: "en",
     locales: ["en", "fr", "pt", "pt-BR", "de", "ro", "es", "it", "el"],
